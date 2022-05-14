@@ -1,0 +1,127 @@
+#navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1d2124;
+  height: 7rem;
+}
+
+#navbar .logo-container {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .logo-container h3 {
+  margin-left: 1.5rem;
+  font-size: 2.2rem;
+}
+
+#navbar .logo-container .bg-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1a1d20;
+  height: 7rem;
+  width: 8.2rem;
+}
+
+#navbar .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar .navbar ul li a {
+  color: white;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+
+#navbar .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1a1d20;
+  height: 7rem;
+  width: 8.2rem;
+}
+
+#navbar .icon i {
+  color: white;
+}
+
+.bg-img-container .background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../assets/img/head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+}
+
+.bg-img-container .background h1 {
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+
+.bg-img-container .background .buttonlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 5rem;
+  font-size: 1.5rem;
+}
+
+.bg-img-container .background .buttonlar .sbs {
+  background-color: #89CA62;
+  padding: 2rem 4rem;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.bg-img-container .background .buttonlar .bart {
+  background-color: #14B9D5;
+  padding: 2rem 4rem;
+  color: #fff;
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

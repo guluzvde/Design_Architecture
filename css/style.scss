@@ -1,0 +1,95 @@
+$white: #fff;
+$esas-reng:#1d2124;
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $esas-reng;
+  height: 7rem;
+  .logo-container {
+    color: $white;
+    display: flex;
+    align-items: center;
+
+    * {
+    }
+    h3 {
+      margin-left: 1.5rem;
+      font-size: 2.2rem;
+    }
+    .bg-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: #1a1d20;
+
+      height: 7rem;
+      width: 8.2rem;
+    }
+  }
+  .navbar{
+      ul{
+          display: flex;
+          li{
+              a{
+                  color: white;
+                  padding: 2rem;
+                  text-transform: uppercase;
+
+              }
+          }
+      }
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1a1d20;
+
+    height: 7rem;
+    width: 8.2rem;
+      i{
+          color: white;
+      }
+  }
+}
+.bg-img-container{
+
+    .background{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../assets/img/head.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50rem;
+        h1{
+            color: $white;
+            font-size: 3rem;
+            padding-bottom: 3rem;
+        }
+        .buttonlar{
+            display: flex;
+            justify-content: space-between;
+            gap: 5rem;
+            font-size: 1.5rem;
+            .sbs{
+                background-color: #89CA62;
+                padding:  2rem 4rem;
+                color: $white;
+                border-radius: 1rem;
+            }
+            .bart{
+                background-color: #14B9D5;
+                padding:  2rem 4rem;
+                color: $white;
+                border-radius: 1rem;
+            }
+        }
+    }
+}
