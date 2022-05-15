@@ -1,5 +1,5 @@
 $white: #fff;
-$esas-reng:#1d2124;
+$esas-reng: #1d2124;
 
 #navbar {
   display: flex;
@@ -11,11 +11,15 @@ $esas-reng:#1d2124;
     color: $white;
     display: flex;
     align-items: center;
-
-    * {
+    justify-content: center;
+    img{
+        background-color: #1a1d20;
+        padding: 2rem;
     }
+    // margin: 5rem;
+
     h3 {
-      margin-left: 1.5rem;
+    //   margin-left: 3rem;
       font-size: 2.2rem;
     }
     .bg-img {
@@ -23,26 +27,30 @@ $esas-reng:#1d2124;
       align-items: center;
       justify-content: center;
 
-      background-color: #1a1d20;
+  
 
       height: 7rem;
       width: 8.2rem;
+      img{
+        //   margin-left: 17rem;
+        //   margin-left: 15rem;
+      }
     }
   }
-  .navbar{
-      ul{
-          display: flex;
-          li{
-              a{
-                  color: white;
-                  padding: 2rem;
-                  text-transform: uppercase;
+  .navbar {
+    ul {
+      display: flex;
 
-              }
-          }
+      li {
+        a {
+          color: white;
+          padding-left: 2rem;
+          text-transform: uppercase;
+        }
       }
+    }
   }
-  .icon{
+  .icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,45 +59,95 @@ $esas-reng:#1d2124;
 
     height: 7rem;
     width: 8.2rem;
-      i{
-          color: white;
-      }
+    i {
+      color: white;
+    }
   }
 }
-.bg-img-container{
-
-    .background{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url(../assets/img/head.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 50rem;
-        h1{
-            color: $white;
-            font-size: 3rem;
-            padding-bottom: 3rem;
-        }
-        .buttonlar{
-            display: flex;
-            justify-content: space-between;
-            gap: 5rem;
-            font-size: 1.5rem;
-            .sbs{
-                background-color: #89CA62;
-                padding:  2rem 4rem;
-                color: $white;
-                border-radius: 1rem;
-            }
-            .bart{
-                background-color: #14B9D5;
-                padding:  2rem 4rem;
-                color: $white;
-                border-radius: 1rem;
-            }
+.bg-img-container {
+  .background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    h1 {
+      color: $white;
+      font-size: 3rem;
+      padding-bottom: 3rem;
+    }
+    .buttonlar {
+      display: flex;
+      justify-content: space-between;
+      gap: 5rem;
+      font-size: 1.5rem;
+      .sbs {
+        background-color: #89ca62;
+        padding: 2rem 4rem;
+        color: $white;
+        border-radius: 1rem;
+      }
+      .bart {
+        background-color: #14b9d5;
+        padding: 2rem 4rem;
+        color: $white;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
+#mst-pop-post {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .head {
+      h3 {
+          color: #18b4cf;
+          text-transform: uppercase;
+          margin: 3rem;
+          font-size: 3rem;
         }
     }
+    .post-container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 5rem;
+        margin-bottom: 5rem;
+    
+    .post-col {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .post {
+      background-color: $white;
+      padding-bottom: 2rem;
+      box-shadow: 0.15rem 0.15rem 0.5rem rgb(78, 78, 78);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .para{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        p {
+
+          margin-top: 2rem;
+          background-color: $white;
+          font-size: 1.75rem;
+        }
+
+    }
+  }
 }
