@@ -175,3 +175,23 @@ $esas-reng: #1d2124;
     }
   }
 }
+#top-rated{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  // display: flex;
+  .top-rated{
+    
+    h2{
+      color:#14b9d5;
+      text-align: center;
+      font-size: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+  .post-rated{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
