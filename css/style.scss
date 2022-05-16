@@ -16,10 +16,8 @@ $esas-reng: #1d2124;
         background-color: #1a1d20;
         padding: 2rem;
     }
-    // margin: 5rem;
 
     h3 {
-    //   margin-left: 3rem;
       font-size: 2.2rem;
     }
     .bg-img {
@@ -32,8 +30,6 @@ $esas-reng: #1d2124;
       height: 7rem;
       width: 8.2rem;
       img{
-        //   margin-left: 17rem;
-        //   margin-left: 15rem;
       }
     }
   }
@@ -148,6 +144,34 @@ $esas-reng: #1d2124;
           font-size: 1.75rem;
         }
 
+    }
+  }
+}
+#popular-clients{
+  .popular-clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    background-image: url(../assets/img/pop-clients.jpg);
+    .clients{
+      h2{
+        color: $white;
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+        padding-bottom: 5rem;
+      }
+      .client-names{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10%;
+      }
     }
   }
 }
